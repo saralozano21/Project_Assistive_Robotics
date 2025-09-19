@@ -142,8 +142,10 @@ The objective is for each laboratory group to design an original Assistive/Socia
 Take the simple task template (Assistive_hand_SW.py) we deliver to you and make the necessary changes to adapt it to your social/assistive program. 
 
 **Delivery**:
-- Students group have to upload the Link to his github project
-- The project has to contain the original Assistive/Social robotic task in a `Custom_Assistive_SW.py` file on `pyhon_scripts`folder
+- Each Student has to upload the video of his custom designed Social/Assistive robotic task simulated on roboDK.
+- The project has to contain:
+    - the original Assistive/Social robotic task in a `Custom_Assistive_SW.py` file on `pyhon_scripts` folder 
+    - and `Custom_Assistive_UR5e.rdk` file on `roboDK` folder.
 
 ## **Laboratory development**
 
