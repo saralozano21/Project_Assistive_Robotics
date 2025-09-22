@@ -10,7 +10,8 @@ relative_path = "src/roboDK/Assistive_UR5e.rdk"
 absolute_path = os.path.abspath(relative_path)
 
 # Start RoboDK with the project file
-RDK = Robolink(args=absolute_path)
+RDK = Robolink()
+RDK.AddFile(absolute_path)
 
 # Retrieve items from the RoboDK station
 robot = RDK.Item("UR5e")
@@ -76,4 +77,4 @@ def confirm_close():
 # Run main and handle closing
 if __name__ == "__main__":
     main()
-    confirm_close()
+    #confirm_close()

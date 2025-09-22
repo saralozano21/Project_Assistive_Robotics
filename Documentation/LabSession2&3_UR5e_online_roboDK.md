@@ -137,9 +137,9 @@ The adapted first version corresponds to the `Assistive_hand_SW_HW_sockets.py` c
 
 The objective is for each laboratory group to design an original Assistive/Social robotic task.
 
-**Laboratory Task:**
+**Activity**
 
-Take the simple task template (Assistive_hand_SW.py) we deliver to you and make the necessary changes to adapt it to your social/assistive program. 
+Take the simple task template (Assistive_hand_SW.py) we deliver to you and make the necessary changes to adapt it to your custom designed social/assistive Task. 
 
 **Delivery**:
 - Students group have to upload the Link to his github project
