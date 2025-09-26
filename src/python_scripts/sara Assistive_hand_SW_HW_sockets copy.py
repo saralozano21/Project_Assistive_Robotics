@@ -85,11 +85,11 @@ def Init():
 
 def Wave():
     # Simulación en RoboDK
-    robot.MoveL(Wave_start, True)
+    robot.MoveL(wave_start, True)
     for _ in range(3):
-        robot.MoveL(Wave_left, True)
-        robot.MoveL(Wave_right, True)
-    robot.MoveL(Wave_start, True)
+        robot.MoveL(wave_left, True)
+        robot.MoveL(wave_right, True)
+    robot.MoveL(wave_start, True)
 
 # Confirmation dialog to close RoboDK
 def confirm_close():
