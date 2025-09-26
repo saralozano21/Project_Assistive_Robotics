@@ -114,8 +114,6 @@ def main():
     robot_is_connected = False
     Init()
     Wave()
-    if robot_is_connected:
-        robot_socket.close()
 
 # Run and close
 if __name__ == "__main__":
