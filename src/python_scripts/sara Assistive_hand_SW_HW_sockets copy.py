@@ -3,7 +3,7 @@ import time
 import socket
 import tkinter as tk
 from tkinter import messagebox
-from math import radians, degrees, pi
+# from math import radians, degrees, pi
 import math
 from robodk.robolink import *
 from robodk.robomath import *
