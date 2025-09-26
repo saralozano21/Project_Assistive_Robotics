@@ -40,19 +40,19 @@ timel = 3
 set_tcp = "set_tcp(p[0.000000, 0.000000, 0.050000, 0.000000, 0.000000, 0.000000])"
 
 deg_init = [-57.835746, -65.391528, -107.167117, 172.558645, -57.835746, 0.000000]
-rad_init = [math.radians(j) for j in deg_init]
+rad_init = [np.radians(j) for j in deg_init]
 movej_init = f"movej({rad_init},{accel_mss},{speed_ms},{timel},0.0000)"
 
 deg_start = [-69.512703, -83.328690, -135.275772, 311.041688, -90.910275, -20.467938]
-rad_start =[math.radians(j) for j in deg_start]
+rad_start =[np.radians(j) for j in deg_start]
 movel_wave_start = f"movel({rad_start},{accel_mss},{speed_ms},{timel},0.000)"
 
 deg_left = [-62.563099, -60.494396, -132.897239, 251.324832, -74.590173, -22.983841]
-rad_left = [math.radians(j) for j in deg_left]
+rad_left = [np.radians(j) for j in deg_left]
 movel_wave_left = f"movel({rad_left},{accel_mss},{speed_ms},{timel/2},0.000)"
 
 deg_right = [-70.611710, -88.334644, -133.375880, 321.311138, -93.359063, -19.106131]
-rad_right = [math.radians(j) for j in deg_right]
+rad_right = [np.radians(j) for j in deg_right]
 movel_wave_right = f"movel({rad_right},{accel_mss},{speed_ms},{timel/2},0.000)"
 
 # Check robot connection
