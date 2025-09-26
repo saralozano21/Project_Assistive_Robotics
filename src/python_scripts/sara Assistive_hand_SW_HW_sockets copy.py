@@ -111,7 +111,7 @@ def confirm_close():
 # Main function
 def main():
     global robot_is_connected
-    robot_is_connected = check_robot_port(ROBOT_IP, ROBOT_PORT)
+    robot_is_connected = False
     Init()
     Wave()
     if robot_is_connected:
